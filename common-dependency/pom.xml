@@ -46,11 +46,6 @@
             </dependency>
             <dependency>
                 <groupId>com.baiyan</groupId>
-                <artifactId>common-components</artifactId>
-                <version>${module.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.baiyan</groupId>
                 <artifactId>common-interaction</artifactId>
                 <version>${module.version}</version>
             </dependency>

@@ -1,6 +1,6 @@
 # 一.项目架构
 ## 1.1.层级依赖图
-![github]()
+![框架图](./doc/ArchitectureLevel.png)
 ## 1.2.层级说明
 ### 1.2.1.common-dependency
 管理整个common工程子包以及公共三方依赖版本

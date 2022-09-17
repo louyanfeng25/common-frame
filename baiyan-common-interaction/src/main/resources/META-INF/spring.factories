@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.baiyan.common.interaction.config.SwaggerConfig,\
+  com.baiyan.common.interaction.config.AddTraceIdResponseBodyAdvice,\
+  com.baiyan.common.interaction.config.CommonJacksonConfig,\
+  com.baiyan.common.interaction.config.message.BaiyanMessageSourceImpl

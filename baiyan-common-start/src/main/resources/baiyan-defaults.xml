@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+	<include resource="org/springframework/boot/logging/logback/defaults.xml" />
+
+	<springProperty scope="context" name="appName" source="spring.application.name" />
+	<springProperty scope="context" name="ip" source="spring.cloud.client.ip-address" />
+	<springProperty scope="context" name="logLevel" source="baiyan.log.level" />
+	<!-- 文件输出格式 -->
+	<property name="PATTERN" value="- %d{yyyy-MM-dd HH:mm:ss.SSS}, %5p, [%X{X-B3-TraceId},%X{X-B3-SpanId},%X{X-B3-ParentSpanId}], [%thread], %logger{39} - %m%n" />
+	<!-- 日志文件保存路径 -->
+	<property name="LOG_PATH" value="/app/logs" />
+	<!-- 日志文件压缩格式 -->
+	<property name="COMPRESS_SUFFIX" value="gz" />
+
+</included>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <include resource="baiyan-defaults.xml" />
+    <include resource="baiyan-file-appenders.xml" />
+    <!--    模块自己定义的日志打印-->
+    <include resource="custom-logback.xml" />
+
+    <logger name="com.baiyan" level="info" />
+
+    <root level="ERROR">
+        <appender-ref ref="ERROR_FILE" />
+        <appender-ref ref="INFO_FILE" />
+    </root>
+
+</configuration>

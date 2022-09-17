@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.baiyan.common.service.util.SpringContextUtil,\
+  com.baiyan.common.service.util.EnvironmentUtil,\
+  com.baiyan.common.service.config.mybatisplus.MybatisConfiguration,\
+  com.baiyan.common.service.config.minio.MinioAutoConfiguration,\
+  com.baiyan.common.service.event.DomainEventPublisherImpl,\
+  com.baiyan.common.service.config.nginx.NginxConfig
+

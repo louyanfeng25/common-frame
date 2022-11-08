@@ -49,13 +49,13 @@ public class BaseResult {
      */
     public static final Integer CODE_SUCCESS = 200;
     public static final Integer CODE_SYSTEM_ERROR = 500;
-    public static final Integer CODE_AUTH_ERROR = 403;
+    public static final Integer CODE_AUTH_ERROR = 401;
 
     /**
      * 通用请求信息
      */
     public static final String SYSTEM_ERROR = "系统错误";
-    public static final String SYSTEM_AUTH_ERROR = "无权限访问";
+    public static final String SYSTEM_AUTH_ERROR = "用户鉴权失败";
     public static final String MESSAGE_SUCCESS = "请求成功";
     public static final String QUERY_SUCCESS = "查询成功";
     public static final String INSERT_SUCCESS = "新增成功";
